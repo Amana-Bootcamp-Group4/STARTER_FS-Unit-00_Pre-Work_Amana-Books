@@ -80,7 +80,7 @@ const BookListItem: React.FC<BookListItemProps> = ({ book, onAddToCart }) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200">
+    <div className="bg-green-100 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200">
       <div className="flex items-center p-4 gap-4">
         {/* Book Cover/Icon - Left Side */}
         <Link href={`/book/${book.id}`} className="flex-shrink-0 cursor-pointer">
